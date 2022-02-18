@@ -3,28 +3,27 @@ package utils;
 
 /**
  *
- * @author raulSilva29
+ * @author Jeimy
  */
 public class BasicOperation {
-    
-    public float add(float adden1, float adden2){
+    public  float add(float addend1, float addend2){
         float total;
-        total = adden1+adden2;
-        return total;
+        total=addend1 + addend2;
+        return total;  
     }
-    public float subtract(float minuend, float sustrahend){
+    public float subtract (float minuend, float subtrahend){
         float difference;
-        difference = minuend-sustrahend;
+        difference = minuend - subtrahend ;
         return difference;
     }
     public float multiplication (float multiplier, float multiplicand){
         float product;
-        product = multiplier*multiplicand;
+        product = multiplier * multiplicand;
         return product;
     }
         public float division (float dividend, float divisor){
         float division;
-        division = dividend/divisor;
+        division = dividend / divisor;
         return division;
     }
 }

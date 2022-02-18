@@ -1,13 +1,15 @@
-
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package utils;
 
 /**
  *
- * @author raulSilva29
+ * @author Juan Diego
  */
-public class BasicOperation {
-    
-    public float add(float adden1, float adden2){
+public class BasicOperations {
+     public float add(float adden1, float adden2){
         float total;
         total = adden1+adden2;
         return total;
@@ -17,6 +19,7 @@ public class BasicOperation {
         difference = minuend-sustrahend;
         return difference;
     }
+    
     public float multiplication (float multiplier, float multiplicand){
         float product;
         product = multiplier*multiplicand;

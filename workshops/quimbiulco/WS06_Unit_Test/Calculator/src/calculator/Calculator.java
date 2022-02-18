@@ -6,7 +6,7 @@ package calculator;
 
 /**
  *
- * @author raulSilva29
+ * @author Juan Diego Quimbiulco
  */
 public class Calculator {
 
