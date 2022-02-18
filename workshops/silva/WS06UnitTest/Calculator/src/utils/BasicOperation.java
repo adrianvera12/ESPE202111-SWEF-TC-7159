@@ -3,7 +3,7 @@ package utils;
 
 /**
  *
- * @author raul2
+ * @author raulSilva29
  */
 public class BasicOperation {
     
@@ -12,9 +12,19 @@ public class BasicOperation {
         total = adden1+adden2;
         return total;
     }
-    public float subtruct(float minuend, float sustrahend){
+    public float subtract(float minuend, float sustrahend){
         float difference;
-        difference = minuend+sustrahend;
+        difference = minuend-sustrahend;
         return difference;
+    }
+    public float multiplication (float multiplier, float multiplicand){
+        float product;
+        product = multiplier*multiplicand;
+        return product;
+    }
+        public float division (float dividend, float divisor){
+        float division;
+        division = dividend/divisor;
+        return division;
     }
 }
