@@ -21,3 +21,7 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/workshops/molina/Calculator/nbproject/
+/workshops/molina/Calculator/target/
+/workshops/molina/Calculator/build/
+/workshops/molina/Calculator/dist/
