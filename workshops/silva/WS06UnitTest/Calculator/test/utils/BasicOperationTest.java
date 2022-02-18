@@ -1,17 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
- */
+
 package utils;
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
+import static org.junit.Assert.*;
 
 /**
  *
- * @author Alexander Villacres
+ * @author raulSilva29
  */
-public class BasicOperationTest {
+public class BasicOperationTest{
     
     public BasicOperationTest() {
     }
@@ -73,4 +70,4 @@ public class BasicOperationTest {
         assertEquals(expResult, result, 0.0001);
         // TODO review the generated test code and remove the default call to fail.
     }
-} 
+}
