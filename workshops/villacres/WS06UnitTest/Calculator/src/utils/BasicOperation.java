@@ -7,7 +7,7 @@ package utils;
 
 /**
  *
- * @author Administrador
+ * @author Alexander Villacres
  */
 public class BasicOperation {
     

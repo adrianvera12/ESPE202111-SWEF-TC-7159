@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
- */
+
 package utils;
 
 import org.junit.jupiter.api.Test;
@@ -12,65 +9,60 @@ import static org.junit.jupiter.api.Assertions.*;
  * @author Alexander Villacres
  */
 public class BasicOperationTest {
-    
+
     public BasicOperationTest() {
     }
 
-    /**
-     * Test of add method, of class BasicOperation.
-     */
+
     @Test
     public void testAdd() {
         System.out.println("add");
-        float adden1 = 3.2F;
-        float adden2 = 4.6F;
+        float addend1 = 0.0F;
+        float addend2 = 0.0F;
         BasicOperation instance = new BasicOperation();
-        float expResult = 7.8F;
-        float result = instance.add(adden1, adden2);
-        assertEquals(expResult, result, 0.0001);
-        // TODO review the generated test code and remove the default call to fail.
+        float expResult = 0.0F;
+        float result = instance.add(addend1, addend2);
+        assertEquals(expResult, result, 0.0);
+
     }
 
-     /**
-     * Test of subtruct method, of class BasicOperation.
-     */
+
     @Test
-    public void testSubtruct() {
+    public void testSubtract() {
         System.out.println("subtract");
-        float minuend = 3.2F;
-        float sustrahend = 4.6F;
+        float minuend = 0.0F;
+        float subtrahend = 0.0F;
         BasicOperation instance = new BasicOperation();
-        float expResult =-1.4F;
-        float result = instance.subtract(minuend, sustrahend);
-        assertEquals(expResult, result, 0.0001);
-        // TODO review the generated test code and remove the default call to fail.
+        float expResult = 0.0F;
+        float result = instance.subtract(minuend, subtrahend);
+        assertEquals(expResult, result, 0.0);
+
     }
-    /**
-     * Test of Operation method, of class BasicOperation.
-     */
+
+
     @Test
-    public void testOperation() {
-        System.out.println("Operation");
-        float multiplier = 5.0F;
-        float multiplicand = 5.0F;
+    public void testMultiplication() {
+        System.out.println("multiplication");
+        float multiplier = 0.0F;
+        float multiplicand = 0.0F;
         BasicOperation instance = new BasicOperation();
-        float expResult = 25.0F;
-        float result = instance.multiplication(multiplier , multiplicand);
-        assertEquals(expResult, result, 0.0001);
-        // TODO review the generated test code and remove the default 
+        float expResult = 0.0F;
+        float result = instance.multiplication(multiplier, multiplicand);
+        assertEquals(expResult, result, 0.0);
+
     }
-    /**
-     * Test of Division method, of class BasicOperation.
-     */
+
+
     @Test
     public void testDivision() {
-        System.out.println("Division");
-        float dividen = 10.0F;
-        float Quotient = 2.0F;
+        System.out.println("division");
+        float dividend = 0.0F;
+        float divisor = 1.0F;
         BasicOperation instance = new BasicOperation();
-        float expResult = 5.0F;
-        float result = instance.division(dividen, Quotient);
+        float expResult = 0.0F;
+        float result = instance.division(dividend, divisor);
         assertEquals(expResult, result, 0.0001);
-        // TODO review the generated test code and remove the default call to fail.
+
     }
-} 
+
+}
