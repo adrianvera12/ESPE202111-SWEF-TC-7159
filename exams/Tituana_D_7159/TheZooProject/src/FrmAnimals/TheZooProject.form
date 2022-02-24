@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="ff" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="279" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField2" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                  <Component id="jTextField1" min="-2" pref="190" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" min="-2" pref="573" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="337" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" pref="226" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="272" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabel6" min="-2" pref="157" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tempus Sans ITC" size="36" style="3"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="ANIMALS"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tempus Sans ITC" size="24" style="3"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="LIST ANIMALS"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tempus Sans ITC" size="24" style="3"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="FIND YOUR ANIMAL!"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tempus Sans ITC" size="18" style="3"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="DO YOU WANT TO KNOW "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tempus Sans ITC" size="18" style="3"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="INFORMATION ABOUT AN ANIMAL?, LOOK FOR IT!"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField2">
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JList" name="jList1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="33" green="ff" red="cc" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="66" green="66" red="66" type="rgb"/>
+                </Property>
+                <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                  <StringArray count="133">
+                    <StringItem index="0" value="American Alsatian"/>
+                    <StringItem index="1" value="American Bulldog"/>
+                    <StringItem index="2" value="American Cocker Spaniel"/>
+                    <StringItem index="3" value="American Cockroach"/>
+                    <StringItem index="4" value="American Coonhound"/>
+                    <StringItem index="5" value="American Eskimo Dog"/>
+                    <StringItem index="6" value="American Foxhound"/>
+                    <StringItem index="7" value="American Hairless Terrier"/>
+                    <StringItem index="8" value="American Leopard Hound"/>
+                    <StringItem index="9" value="American Pit Bull Terrier"/>
+                    <StringItem index="10" value="American Pygmy Goat"/>
+                    <StringItem index="11" value="American Robin"/>
+                    <StringItem index="12" value="American Staffordshire Terrier"/>
+                    <StringItem index="13" value="American Toad"/>
+                    <StringItem index="14" value="American Water Spaniel"/>
+                    <StringItem index="15" value="Amur Leopard"/>
+                    <StringItem index="16" value="Anatolian Shepherd Dog"/>
+                    <StringItem index="17" value="Anchovies"/>
+                    <StringItem index="18" value="Angelfish"/>
+                    <StringItem index="19" value="Anglerfish"/>
+                    <StringItem index="20" value="Angora Ferret"/>
+                    <StringItem index="21" value="Angora Goat"/>
+                    <StringItem index="22" value="Anole Lizard"/>
+                    <StringItem index="23" value="Ant"/>
+                    <StringItem index="24" value="Antarctic scale worm"/>
+                    <StringItem index="25" value="Anteater"/>
+                    <StringItem index="26" value="Antelope"/>
+                    <StringItem index="27" value="Appenzeller Dog"/>
+                    <StringItem index="28" value="Apple Head Chihuahua"/>
+                    <StringItem index="29" value="Arapaima"/>
+                    <StringItem index="30" value="Arctic Fox"/>
+                    <StringItem index="31" value="Arctic Hare"/>
+                    <StringItem index="32" value="Arctic Wolf"/>
+                    <StringItem index="33" value="Arizona Bark Scorpion"/>
+                    <StringItem index="34" value="Barramundi Fish"/>
+                    <StringItem index="35" value="Barred Owl"/>
+                    <StringItem index="36" value="Basenji Dog"/>
+                    <StringItem index="37" value="Basilisk Lizard"/>
+                    <StringItem index="38" value="Basking Shark"/>
+                    <StringItem index="39" value="Bassador"/>
+                    <StringItem index="40" value="Basset Fauve de Bretagne"/>
+                    <StringItem index="41" value="Basset Hound"/>
+                    <StringItem index="42" value="Bassetoodle"/>
+                    <StringItem index="43" value="Bat"/>
+                    <StringItem index="44" value="Bavarian Mountain Hound"/>
+                    <StringItem index="45" value="Bea-Tzu"/>
+                    <StringItem index="46" value="Beabull"/>
+                    <StringItem index="47" value="Beagador"/>
+                    <StringItem index="48" value="Beagle"/>
+                    <StringItem index="49" value="Beagle Shepherd"/>
+                    <StringItem index="50" value="Beaglier"/>
+                    <StringItem index="51" value="Beago"/>
+                    <StringItem index="52" value="Bear"/>
+                    <StringItem index="53" value="Bearded Collie"/>
+                    <StringItem index="54" value="Bearded Dragon"/>
+                    <StringItem index="55" value="Bearded Vulture"/>
+                    <StringItem index="56" value="Beaski"/>
+                    <StringItem index="57" value="Beauceron"/>
+                    <StringItem index="58" value="Beaver"/>
+                    <StringItem index="59" value="Bed Bugs"/>
+                    <StringItem index="60" value="Bedlington Terrier"/>
+                    <StringItem index="61" value="Bee"/>
+                    <StringItem index="62" value="Beefalo"/>
+                    <StringItem index="63" value="Beetle"/>
+                    <StringItem index="64" value="Belgian Shepherd"/>
+                    <StringItem index="65" value="Belgian Tervuren"/>
+                    <StringItem index="66" value="Beluga Sturgeon"/>
+                    <StringItem index="67" value="Bengal Tiger"/>
+                    <StringItem index="68" value="Bergamasco"/>
+                    <StringItem index="69" value="Berger Picard"/>
+                    <StringItem index="70" value="Bernedoodle"/>
+                    <StringItem index="71" value="Bernese Mountain Dog"/>
+                    <StringItem index="72" value="Bernese Shepherd"/>
+                    <StringItem index="73" value="Betta Fish (Siamese Fighting Fish)"/>
+                    <StringItem index="74" value="Bichir"/>
+                    <StringItem index="75" value="Bichon Frise"/>
+                    <StringItem index="76" value="Bichpoo"/>
+                    <StringItem index="77" value="Biewer Terrier"/>
+                    <StringItem index="78" value="Bighorn Sheep"/>
+                    <StringItem index="79" value="Bilby"/>
+                    <StringItem index="80" value="Binturong"/>
+                    <StringItem index="81" value="Bird"/>
+                    <StringItem index="82" value="Bird Of Paradise"/>
+                    <StringItem index="83" value="Birman"/>
+                    <StringItem index="84" value="Biscuit Beetle"/>
+                    <StringItem index="85" value="Bison"/>
+                    <StringItem index="86" value="Black And Tan Coonhound"/>
+                    <StringItem index="87" value="Black Mamba"/>
+                    <StringItem index="88" value="Black Marlin"/>
+                    <StringItem index="89" value="Black Rhinoceros"/>
+                    <StringItem index="90" value="Black Russian Terrier"/>
+                    <StringItem index="91" value="Black Wasp"/>
+                    <StringItem index="92" value="Black Widow Spider"/>
+                    <StringItem index="93" value="Black-Footed Ferret"/>
+                    <StringItem index="94" value="Blackpoll Warbler"/>
+                    <StringItem index="95" value="Blanket Octopus"/>
+                    <StringItem index="96" value="Blister Beetle"/>
+                    <StringItem index="97" value="Blobfish"/>
+                    <StringItem index="98" value="Blood Python"/>
+                    <StringItem index="99" value="Bloodhound"/>
+                    <StringItem index="100" value="Blue Belly Lizard"/>
+                    <StringItem index="101" value="Blue grosbeak"/>
+                    <StringItem index="102" value="Blue Iguana"/>
+                    <StringItem index="103" value="Blue Jay"/>
+                    <StringItem index="104" value="Blue Lacy Dog"/>
+                    <StringItem index="105" value="Blue Picardy Spaniel"/>
+                    <StringItem index="106" value="Blue Shark"/>
+                    <StringItem index="107" value="Blue Whale"/>
+                    <StringItem index="108" value="Blue-Ringed Octopus"/>
+                    <StringItem index="109" value="Bluefin Tuna"/>
+                    <StringItem index="110" value="Bluetick Coonhound"/>
+                    <StringItem index="111" value="Bobcat"/>
+                    <StringItem index="112" value="Bobolink"/>
+                    <StringItem index="113" value="Boggle"/>
+                    <StringItem index="114" value="Boglen Terrier"/>
+                    <StringItem index="115" value="Bolognese Dog"/>
+                    <StringItem index="116" value="Bombay"/>
+                    <StringItem index="117" value="Bongo"/>
+                    <StringItem index="118" value="Bonito Fish"/>
+                    <StringItem index="119" value="Bonnethead Shark"/>
+                    <StringItem index="120" value="Bonobo"/>
+                    <StringItem index="121" value="Booby"/>
+                    <StringItem index="122" value="Boomslang"/>
+                    <StringItem index="123" value="Borador"/>
+                    <StringItem index="124" value="Border Collie"/>
+                    <StringItem index="125" value="Border Terrier"/>
+                    <StringItem index="126" value="Bordoodle"/>
+                    <StringItem index="127" value="Borkie"/>
+                    <StringItem index="128" value="Bornean Orang-utan"/>
+                    <StringItem index="129" value="Borneo Elephant"/>
+                    <StringItem index="130" value="Boston Terrier"/>
+                    <StringItem index="131" value="Bottlenose Dolphin"/>
+                    <StringItem index="132" value=" "/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/FrmAnimals/_106526845_tortugagigante.jpg"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="jLabel6"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="CONTINUE"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="CANCEL"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
