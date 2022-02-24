@@ -22,6 +22,10 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 <<<<<<< HEAD
+/workshops/mideros/WS06UnitTest/Calculator/nbproject/private/
+/workshops/mideros/WS06UnitTest/Calculator/build/
+=======
+<<<<<<< HEAD
 /workshops/Granda/WS06UnitTest/Calculator/nbproject/private/
 /workshops/Granda/WS06UnitTest/Calculator/build/
 =======
@@ -109,4 +113,13 @@ hs_err_pid*
 >>>>>>> f245f1f5ef1a439799d45ec95146a5890fde5055
 /workshops/pabon/WS06UnitTest/Calculator v1/nbproject/private/
 >>>>>>> 5f53b5428d581ee6a0bb19506a6744ef37f91ec2
+<<<<<<< HEAD
 /exams/ManobandaJ-7159/ZooApp/nbproject/private/
+=======
+/exams/Morales_J_7159/Examen/nbproject/private/
+<<<<<<< HEAD
+/exams/Morales_J_7159/Examen/build/
+=======
+>>>>>>> 835452787aeab775c3b894baf68874c31c247ceb
+>>>>>>> 2e0ffdcc04a45358c7610e2c0ddc300f87c015f9
+>>>>>>> 889b2cfc1f3b05c607a1328f6b1f10ca34853fbb
